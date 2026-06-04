@@ -1,3 +1,5 @@
+from intel_system import show_intelligence
+
 print("WWII COMMAND PLATFORM")
 print("=====================")
 
@@ -17,11 +19,7 @@ while True:
 
     if choice == "1":
 
-        print("\nINTELLIGENCE REPORT")
-        print("Heavy radio traffic detected.")
-        print("Possible armored movement.")
-        print("Rail activity increasing.")
-        print("Enemy buildup near Smolensk.")
+        show_intelligence()
 
     elif choice == "2":
 
